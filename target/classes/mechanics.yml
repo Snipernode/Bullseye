@@ -1,0 +1,381 @@
+mechanics:
+  fire_slash:
+    item_hit:
+      - type: burn_target
+        ticks: 80
+      - type: particle
+        particle: FLAME
+        count: 24
+        spread: 0.35
+      - type: sound
+        sound: ENTITY_BLAZE_SHOOT
+        volume: 0.9
+        pitch: 1.25
+
+  marble_block_touch:
+    block_interact:
+      - type: message
+        text: "&fThis custom marble block is controlled by Bullseye."
+
+  lamp_toggle:
+    block_interact:
+      - type: toggle_block
+        material-on: REDSTONE_LAMP
+        material-off: REDSTONE_BLOCK
+      - type: sound
+        sound: BLOCK_LEVER_CLICK
+        volume: 1.0
+        pitch: 1.0
+
+  open_machine_menu:
+    block_interact:
+      - type: open_menu
+        menu: machine_console
+
+  furniture_click_feedback:
+    furniture_interact:
+      - type: message
+        text: "&6Furniture ID: &f{source_id}"
+      - type: sound
+        sound: BLOCK_WOOD_PLACE
+        volume: 0.7
+        pitch: 1.15
+
+  main_open_items:
+    menu_click:
+      - type: sound
+        sound: UI_BUTTON_CLICK
+        volume: 1.0
+        pitch: 1.1
+      - type: open_browser
+        browser: items
+        page: 0
+
+  main_open_spawn_eggs:
+    menu_click:
+      - type: sound
+        sound: UI_BUTTON_CLICK
+        volume: 1.0
+        pitch: 1.1
+      - type: open_browser
+        browser: mobs
+        page: 0
+
+  main_open_hud_checker:
+    menu_click:
+      - type: sound
+        sound: UI_BUTTON_CLICK
+        volume: 1.0
+        pitch: 1.1
+      - type: open_menu
+        menu: hud_checker_panel
+
+  main_open_settings:
+    menu_click:
+      - type: sound
+        sound: UI_BUTTON_CLICK
+        volume: 1.0
+        pitch: 1.1
+      - type: message
+        text: "&eSettings panel can be connected next."
+
+  main_exit:
+    menu_click:
+      - type: close_menu
+
+  item_take_ruby_sword:
+    menu_click:
+      - type: give_item
+        item: ruby_sword
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_mining_drill:
+    menu_click:
+      - type: give_item
+        item: mining_drill
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_ruby_ingot:
+    menu_click:
+      - type: give_item
+        item: ruby_ingot
+        amount: 8
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_machine_core:
+    menu_click:
+      - type: give_item
+        item: machine_core
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_marble:
+    menu_click:
+      - type: give_item
+        item: marble_block_item
+        amount: 16
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_lamp:
+    menu_click:
+      - type: give_item
+        item: industrial_lamp_item
+        amount: 8
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  item_take_chair:
+    menu_click:
+      - type: give_item
+        item: oak_chair_item
+        amount: 4
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  items_next_page:
+    menu_click:
+      - type: message
+        text: "&eMore item pages can be added next."
+
+  items_search:
+    menu_click:
+      - type: message
+        text: "&eSearch wiring can be added next."
+
+  items_exit:
+    menu_click:
+      - type: close_menu
+
+  spawn_shadow_stalker:
+    menu_click:
+      - type: give_item
+        item: shadow_stalker_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_toxic_crawler:
+    menu_click:
+      - type: give_item
+        item: toxic_crawler_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_inferno_brute:
+    menu_click:
+      - type: give_item
+        item: inferno_brute_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_void_reaper:
+    menu_click:
+      - type: give_item
+        item: void_reaper_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_mossling:
+    menu_click:
+      - type: give_item
+        item: mossling_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_crystal_golem:
+    menu_click:
+      - type: give_item
+        item: crystal_golem_spawn_egg
+        amount: 1
+      - type: sound
+        sound: ENTITY_ITEM_PICKUP
+        volume: 1.0
+        pitch: 1.1
+
+  spawn_next_page:
+    menu_click:
+      - type: message
+        text: "&eMore spawn pages can be added next."
+
+  spawn_search:
+    menu_click:
+      - type: message
+        text: "&eSpawn search wiring can be added next."
+
+  spawn_exit:
+    menu_click:
+      - type: close_menu
+
+  hud_take_probe:
+    menu_click:
+      - type: give_item
+        item: hud_probe_item
+        amount: 1
+      - type: message
+        text: "&bHUD probe item delivered."
+
+  hud_scan:
+    menu_click:
+      - type: give_item
+        item: hud_loaded_badge
+        amount: 1
+      - type: sound
+        sound: ENTITY_PLAYER_LEVELUP
+        volume: 0.8
+        pitch: 1.5
+      - type: message
+        text: "&aIf this badge icon looks correct, HUD textures are loaded."
+
+  hud_exit:
+    menu_click:
+      - type: close_menu
+
+  machine_craft_ruby:
+    menu_click:
+      - type: give_item
+        item: ruby_ingot
+        amount: 2
+      - type: sound
+        sound: BLOCK_ANVIL_USE
+        volume: 0.8
+        pitch: 1.35
+      - type: message
+        text: "&aMachine output: &f2x Ruby Ingot"
+
+  machine_close:
+    menu_click:
+      - type: close_menu
+
+  shadow_stalker_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: PORTAL
+        count: 16
+        spread: 0.3
+      - type: sound
+        target: target
+        sound: ENTITY_ENDERMAN_AMBIENT
+        volume: 0.8
+        pitch: 1.35
+    mob_hit:
+      - type: particle
+        target: target
+        particle: SMOKE
+        count: 10
+        spread: 0.25
+
+  toxic_crawler_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: SLIME
+        count: 14
+        spread: 0.25
+    mob_hit:
+      - type: particle
+        target: target
+        particle: ITEM_SLIME
+        count: 8
+        spread: 0.2
+
+  inferno_brute_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: FLAME
+        count: 18
+        spread: 0.2
+      - type: sound
+        target: target
+        sound: ENTITY_BLAZE_AMBIENT
+        volume: 0.8
+        pitch: 1.0
+    mob_death:
+      - type: particle
+        target: target
+        particle: LAVA
+        count: 10
+        spread: 0.2
+
+  void_reaper_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: DRAGON_BREATH
+        count: 12
+        spread: 0.3
+    mob_hit:
+      - type: sound
+        target: target
+        sound: ENTITY_ENDERMAN_SCREAM
+        volume: 0.7
+        pitch: 1.2
+
+  mossling_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: HAPPY_VILLAGER
+        count: 14
+        spread: 0.25
+    mob_death:
+      - type: particle
+        target: target
+        particle: ITEM_SLIME
+        count: 10
+        spread: 0.2
+
+  crystal_golem_passive:
+    mob_spawn:
+      - type: particle
+        target: target
+        particle: END_ROD
+        count: 12
+        spread: 0.2
+      - type: sound
+        target: target
+        sound: BLOCK_AMETHYST_BLOCK_CHIME
+        volume: 0.8
+        pitch: 1.35
+    mob_death:
+      - type: particle
+        target: target
+        particle: CRIT
+        count: 20
+        spread: 0.3

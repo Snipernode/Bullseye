@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:tns="http://www.jooq.org/xsd/jooq-migrations-3.20.0.xsd"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:annox="http://annox.dev.java.net"
+    targetNamespace="http://www.jooq.org/xsd/jooq-migrations-3.20.0.xsd"
+    elementFormDefault="qualified"
+    jxb:extensionBindingPrefixes="annox"
+    jxb:version="2.1">
+
+    <element name="migrations" type="tns:MigrationsType"/>
+    <element name="commit" type="tns:CommitType"/>
+    
+    <complexType name="MigrationsType">
+        <all>
+            <element name="commits" type="tns:CommitsType" minOccurs="0" maxOccurs="1" />
+        </all>
+    </complexType>
+
+    <complexType name="CommitsType">
+        <sequence>
+            <element name="commit" type="tns:CommitType" minOccurs="0" maxOccurs="unbounded" />
+        </sequence>
+    </complexType>
+
+    <complexType name="CommitType">
+        <all>
+            <element name="parents" type="tns:ParentsType" minOccurs="0" maxOccurs="1" />
+            <element name="id" type="string" minOccurs="0" maxOccurs="1" />
+            <element name="message" type="string" minOccurs="0" maxOccurs="1" />
+            <element name="author" type="string" minOccurs="0" maxOccurs="1" />
+            <element name="tags" type="tns:TagsType" minOccurs="0" maxOccurs="1" />
+            <element name="files" type="tns:FilesType" minOccurs="0" maxOccurs="1" />
+        </all>
+    </complexType>
+    
+    <complexType name="ParentsType">
+        <sequence>
+            <element name="parent" type="tns:ParentType" minOccurs="0" maxOccurs="unbounded" />
+        </sequence>
+    </complexType>
+   
+    <complexType name="ParentType">
+        <all>
+            <element name="id" type="string" minOccurs="1" maxOccurs="1" />
+        </all>
+    </complexType>
+    
+    <complexType name="TagsType">
+        <sequence>
+            <element name="tag" type="tns:TagType" minOccurs="0" maxOccurs="unbounded" />
+        </sequence>
+    </complexType>
+    
+    <complexType name="TagType">
+        <all>
+            <element name="id" type="string" minOccurs="1" maxOccurs="1" />
+            <element name="message" type="string" minOccurs="0" maxOccurs="1" />
+        </all>
+    </complexType>
+    
+    <complexType name="FilesType">
+        <sequence>
+            <element name="file" type="tns:FileType" minOccurs="0" maxOccurs="unbounded" />
+        </sequence>
+    </complexType>
+    
+    <complexType name="FileType">
+        <all>
+            <element name="path" type="string" minOccurs="1" maxOccurs="1" />
+            <element name="content" type="string" minOccurs="0" maxOccurs="1" />
+            <element name="contentType" type="string" minOccurs="0" maxOccurs="1" />
+            <element name="change" type="tns:ChangeType" minOccurs="1" maxOccurs="1" />
+        </all>
+    </complexType>
+    
+    <simpleType name="ChangeType">
+        <restriction base="string">
+            <enumeration value="ADD">
+                <annotation><appinfo><jxb:property><jxb:javadoc><![CDATA[ADD a file to the migration.]]></jxb:javadoc></jxb:property></appinfo></annotation>
+            </enumeration>
+            <enumeration value="MODIFY">
+                <annotation><appinfo><jxb:property><jxb:javadoc><![CDATA[MODIFY a file from the migration.]]></jxb:javadoc></jxb:property></appinfo></annotation>
+            </enumeration>
+            <enumeration value="DELETE">
+                <annotation><appinfo><jxb:property><jxb:javadoc><![CDATA[DELETE a file from the migration.]]></jxb:javadoc></jxb:property></appinfo></annotation>
+            </enumeration>
+            <enumeration value="RENAME">
+                <annotation><appinfo><jxb:property><jxb:javadoc><![CDATA[RENAME a file in the migration.]]></jxb:javadoc></jxb:property></appinfo></annotation>
+            </enumeration>
+            <enumeration value="COPY">
+                <annotation><appinfo><jxb:property><jxb:javadoc><![CDATA[COPY a file within the migration.]]></jxb:javadoc></jxb:property></appinfo></annotation>
+            </enumeration>
+        </restriction>
+    </simpleType>
+</schema>

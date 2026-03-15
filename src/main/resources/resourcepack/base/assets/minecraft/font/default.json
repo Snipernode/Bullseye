@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/ascii.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        " !\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~\u0000",
+        "\u0000ÇüéâäàåçêëèïîìÄÅ",
+        "ÉæÆôöòûùÿÖÜø£Ø×ƒ",
+        "áíóúñÑªº¿®¬½¼¡«»",
+        "░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐",
+        "└┴┬├─┼ãÃ╚╔╩╦╠═╬¤",
+        "ðÐÊËÈıÍÎÏ┘┌█▄¦Ì▀",
+        "ÓßÔÒõÕµþÞÚÛÙýÝ¯´",
+        "\u00ad±‗¾¶§÷¸°¨·¹³²■\u0000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bullseye:gui/main_panel.png",
+      "ascent": 37,
+      "height": 256,
+      "chars": [
+        "\uE900"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bullseye:gui/items_panel.png",
+      "ascent": 37,
+      "height": 256,
+      "chars": [
+        "\uE901"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bullseye:gui/spawn_panel.png",
+      "ascent": 37,
+      "height": 256,
+      "chars": [
+        "\uE902"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bullseye:gui/hud_panel.png",
+      "ascent": 37,
+      "height": 256,
+      "chars": [
+        "\uE903"
+      ]
+    }
+  ]
+}

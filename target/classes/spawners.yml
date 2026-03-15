@@ -1,0 +1,30 @@
+spawners:
+  shadow_stalker_den:
+    mob: shadow_stalker
+    interval: 220
+    spawn-count: 1
+    max-nearby: 3
+    activation-range: 24
+    check-range: 18
+    spawn-radius: 2.5
+    y-offset: 1.0
+
+  toxic_crawler_nest:
+    mob: toxic_crawler
+    interval: 180
+    spawn-count: 1
+    max-nearby: 4
+    activation-range: 20
+    check-range: 16
+    spawn-radius: 2.0
+    y-offset: 1.0
+
+  inferno_brute_altar:
+    mob: inferno_brute
+    interval: 300
+    spawn-count: 1
+    max-nearby: 2
+    activation-range: 28
+    check-range: 18
+    spawn-radius: 1.5
+    y-offset: 1.0

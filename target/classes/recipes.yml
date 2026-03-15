@@ -1,0 +1,34 @@
+recipes:
+  ruby_sword:
+    type: shaped
+    result: ruby_sword
+    amount: 1
+    shape:
+      - " R "
+      - " R "
+      - " S "
+    ingredients:
+      R: ruby_ingot
+      S: STICK
+
+  mining_drill:
+    type: shaped
+    result: mining_drill
+    amount: 1
+    shape:
+      - "NNN"
+      - " R "
+      - " S "
+    ingredients:
+      N: NETHERITE_INGOT
+      R: ruby_ingot
+      S: STICK
+
+  machine_core:
+    type: shapeless
+    result: machine_core
+    amount: 1
+    ingredients:
+      - REDSTONE
+      - IRON_INGOT
+      - ruby_ingot

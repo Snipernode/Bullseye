@@ -1,0 +1,7 @@
+sounds:
+  aliases:
+    ui_button: UI_BUTTON_CLICK
+    item_pickup: ENTITY_ITEM_PICKUP
+    success: ENTITY_PLAYER_LEVELUP
+    machine_use: BLOCK_ANVIL_USE
+    furniture_place: BLOCK_WOOD_PLACE

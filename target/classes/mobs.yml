@@ -1,0 +1,93 @@
+mobs:
+  shadow_stalker:
+    entity-type: SPIDER
+    display-name: "&5Shadow Stalker"
+    spawn-egg-item: shadow_stalker_spawn_egg
+    consume-spawn-egg: true
+    health: 26
+    damage: 6
+    movement-speed: 0.32
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: shadow_stalker_loot
+    model-id: shadow_stalker_model
+    skills:
+      - shadow_stalker_passive_skill
+
+  toxic_crawler:
+    entity-type: CAVE_SPIDER
+    display-name: "&2Toxic Crawler"
+    spawn-egg-item: toxic_crawler_spawn_egg
+    consume-spawn-egg: true
+    health: 24
+    damage: 5
+    movement-speed: 0.34
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: toxic_crawler_loot
+    model-id: toxic_crawler_model
+    skills:
+      - toxic_crawler_passive_skill
+
+  inferno_brute:
+    entity-type: BLAZE
+    display-name: "&6Inferno Brute"
+    spawn-egg-item: inferno_brute_spawn_egg
+    consume-spawn-egg: true
+    health: 34
+    damage: 8
+    movement-speed: 0.28
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: inferno_brute_loot
+    model-id: inferno_brute_model
+    skills:
+      - inferno_brute_passive_skill
+
+  void_reaper:
+    entity-type: ENDERMAN
+    display-name: "&8Void Reaper"
+    spawn-egg-item: void_reaper_spawn_egg
+    consume-spawn-egg: true
+    health: 32
+    damage: 7
+    movement-speed: 0.30
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: void_reaper_loot
+    skills:
+      - void_reaper_passive_skill
+
+  mossling:
+    entity-type: SLIME
+    display-name: "&aMossling"
+    spawn-egg-item: mossling_spawn_egg
+    consume-spawn-egg: true
+    health: 18
+    damage: 3
+    movement-speed: 0.28
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: mossling_loot
+    skills:
+      - mossling_passive_skill
+
+  crystal_golem:
+    entity-type: IRON_GOLEM
+    display-name: "&bCrystal Golem"
+    spawn-egg-item: crystal_golem_spawn_egg
+    consume-spawn-egg: true
+    health: 44
+    damage: 9
+    movement-speed: 0.22
+    use-ai: true
+    silent: false
+    hide-base-entity: false
+    drop-table: crystal_golem_loot
+    skills:
+      - crystal_golem_passive_skill

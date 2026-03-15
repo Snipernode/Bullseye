@@ -1,0 +1,43 @@
+Menu:
+  Display: "<bold>Spawner Editor"
+  Size: 54
+  Schema:
+   - I D 0 0 S R 0 0 B
+   - 0 0 0 0 0 0 0 0 0
+   - 0 $ $ $ $ $ $ $ 0
+   - P $ $ $ $ $ $ $ N
+   - 0 $ $ $ $ $ $ $ 0
+   - 0 0 0 0 0 0 0 0 0
+  Icons:
+    FANCY_BORDER:
+      Mapping: 1
+      Material: LIGHT_GRAY_STAINED_GLASS_PANE
+      Display: '&8www.mythiccraft.io'
+      Model: 0
+    NEXT_PAGE:
+      Mapping: N
+      Material: ARROW
+      Display: '&fNext Page'
+    PREVIOUS_PAGE:
+      Mapping: P
+      Material: ARROW
+      Display: '&fPrevious Page'
+    BACK_BUTTON:
+      Mapping: B
+      Material: STRUCTURE_VOID
+      Display: '&fBack'
+    ITEM_BUTTON:
+      Mapping: I
+      HideFlags: false
+    DELETE_BUTTON:
+      Mapping: D
+      Material: LAVA_BUCKET
+      Display: '&cDelete Mob'
+    SEARCH_BUTTON:
+      Mapping: S
+      Material: DARK_OAK_SIGN
+      Display: '&9Search / Filter Options'
+    SEARCH_RESET_BUTTON:
+      Mapping: R
+      Material: PAPER
+      Display: '&9Reset Filter'

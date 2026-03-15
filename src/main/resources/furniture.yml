@@ -1,0 +1,7 @@
+furniture:
+  oak_chair:
+    item-id: oak_chair_item
+    display-item: oak_chair_item
+    seat: true
+    mechanics:
+      - furniture_click_feedback

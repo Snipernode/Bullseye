@@ -1,0 +1,92 @@
+##################################################
+#                                                #
+#  TRANSLATION MADE BY Akis (discord: yeahakis)  #
+#                                                #
+##################################################
+
+general:
+  prefix: "<gradient:#46C392:#7FC794>Nexo <gray>| "
+  no_permission: "<prefix><#fa4943>Nemáš oprávnenie <b><permission></b> na vykonanie tejto akcie!"
+  work_in_progress: "<prefix><#facc43>Táto funkcia je práve vo vývoji!"
+  not_player: "<prefix><#fa4943>Toto môžeš urobiť len ako hráč!"
+  cooldown: "<prefix><#facc43>Počkaj si ešte <time> sekúnd!"
+  reload: "<prefix><#55ffa4>Úspešne si obnovil <reloaded>"
+  pack_uploading: "<prefix><#D5D6D8>Automatické nahrávanie resourcepacku je zapnuté, nahrávam..."
+  pack_not_uploaded: "<prefix><#fa4943>Resourcepack sa nepodarilo nahrať"
+  pack_uploaded: "<prefix><#55ffa4>Resourcepack úspešne nahraný na <url> za <delay> ms"
+  pack_regenerated: "<prefix><#55ffa4>Resourcepack úspešne regenerovaný"
+  updating_config: "<prefix><#facc43>Konfiguračná možnosť \"<option>\" nebola nájdená, pridávam ju!"
+  removing_config: "<prefix><#facc43>Konfiguračná možnosť \"<option>\" bola označená na vymazanie, odstraňujem ju!"
+  configs_validation_failed: "<prefix><#fa4943>Validácia konfigurácie zlyhala, plugin bol automaticky vypnutý!"
+  repaired_items: "<prefix><#55ffa4><amount> predmet(ov) bolo úspešne opravených!"
+  cannot_be_repaired: "<prefix><#fa4943>Tento predmet sa nedá opraviť!"
+  cannot_be_repaired_invalid: "<prefix><#fa4943>Musíš držať platný predmet v ruke!"
+  updated_items: "<prefix><#55ffa4><amount> predmet(ov) bolo úspešne aktualizovaných pre <player>!"
+  zip_browse_error: "<prefix><#fa4943>Vyskytla sa chyba pri prehliadaní zip súboru"
+  bad_recipe: "<prefix><#fa4943>Recept \"<recipe>\" je neplatný, uisti sa, že všetky ingrediencie existujú v tvojej konfigurácii"
+  item_not_found: "<prefix><#fa4943>Predmet \"<item>\" nebol nájdený"
+  plugin_hooks: "<prefix><#55ffa4>Plugin \"<plugin>\" bol detegovaný, zapínam hooky"
+  plugin_unhooks: "<prefix><#55ffa4>Vypínam hooky pre plugin \"<plugin>\""
+  not_enough_exp: "<prefix><#fa4943>Na vykonanie tejto akcie potrebuješ viac skúseností"
+  not_enough_space: "<prefix><#fa4943>Na umiestnenie tohto nábytku potrebuješ viac miesta"
+  exit_menu: "<gradient:#FA7CBB:#F14658>Ukončiť"
+  no_emojis: "<prefix><#fa4943>Nenašli sa žiadne emoji"
+
+logs:
+  loaded: "<prefix><#55ffa4>Úspešne načítané na <os>"
+  unloaded: "<prefix><#55ffa4>Úspešne ukončené"
+  no_armor_item: "<prefix><#fa4943>Nenašiel sa žiadny predmet zodpovedajúci <name>. Nie je možné použiť <armor_layer_file>"
+  duplicate_armor_color: "<prefix><#fa4943><first_armor_prefix> sada brnenia používa rovnakú farbu ako <second_armor_prefix> s inou textúrou"
+
+command:
+  help: "<prefix><#b8bbc2>Dostupné príkazy
+        \n<hover:show_text:\"<gray>fill reload command\"><click:SUGGEST_COMMAND:/nexo reload ><#6f737d>/nexo
+          <#b8bbc2>reload <#fa8943>typ</click></hover>  <#6f737d>»<#b8bbc2> obnov plugin
+        \n<hover:show_text:\"<gray>fill inv command\"><click:SUGGEST_COMMAND:/nexo inv><#6f737d>/nexo
+          <#b8bbc2>inventár</click></hover>  <#6f737d>»<#b8bbc2> zobraz nexo predmety v inventári
+        \n<hover:show_text:\"<gray>fill pack command\"><click:SUGGEST_COMMAND:/nexo pack ><#6f737d>/nexo
+          <#b8bbc2>pack <#43c9fa>cieľ</click></hover>
+        \n<hover:show_text:\"<gray>fill give command\"><click:SUGGEST_COMMAND:/nexo give ><#6f737d>/nexo
+          <#b8bbc2>give <#43c9fa>cieľ <#fa4362>predmet <#43fa8c>množstvo</click></hover>  <#6f737d>»<#b8bbc2> daj nexo predmet
+        \n<hover:show_text:\"<gray>fill recipes show command\"><click:SUGGEST_COMMAND:/nexo recipes show ><#6f737d>/nexo
+          <#b8bbc2>recepty show <#fa8943>typ</click></hover>  <#6f737d>»<#b8bbc2> zobraz recepty
+        \n<hover:show_text:\"<gray>fill recipes builder command\"><click:SUGGEST_COMMAND:/nexo recipes builder ><#6f737d>/nexo
+          <#b8bbc2>recepty builder <#fa8943>typ</click></hover>  <#6f737d>»<#b8bbc2> otvor stavanie receptov
+        \n<hover:show_text:\"<gray>fill recipes save command\"><click:SUGGEST_COMMAND:/nexo recipes save ><#6f737d>/nexo
+          <#b8bbc2>recepty save <#faf443>názov</click></hover>  <#6f737d>»<#b8bbc2> ulož recept"
+
+  join: |-
+    <dark_gray><st>                           </st><dark_gray>{<aqua><bold>Resource Pack</bold><dark_gray>}<dark_gray><st>                        </st>
+    <gray><bold>Na zobrazenie nových predmetov potrebuješ špeciálny resourcepack (ale neboj sa, to ti nebráni používať tvoj vlastný súčasne).</bold>
+    <dark_gray>»<gray> Pre pokus o načítanie priamo z hry, <click:run_command:"nexo pack send @p"><hover:show_text:"<red>! načítanie resourcepacku z hry môže spôsobiť lag"><red><bold>KLIKNI SEM</bold></hover></click>
+    <dark_gray>»<gray> Pre stiahnutie z internetu, <hover:show_text:"<pack_url> <green>! nainštaluj ho z Options/ResourcePacks v tvojej hre"><green><bold><click:OPEN_URL:"<pack_url>">KLIKNI SEM</click></bold></hover>
+
+  recipe:
+    no_builder: "<prefix><#fa4943>Najprv vytvor recept!"
+    no_furnace: "<prefix><#fa4943>Táto možnosť je dostupná len pre pece!"
+    no_name: "<prefix><#fa4943>Prosím <gradient:#FA7CBB:#F14658>zadaj názov receptu!"
+    no_recipes: "<prefix><#fa4943>Nie sú žiadne recepty na zobrazenie!"
+    no_item: "<prefix><#fa4943>Zadaj predmet!"
+    save: "<prefix><#55ffa4>Recept '<name>' bol úspešne uložený!"
+
+  give:
+    player: "<prefix><#55ffa4>Dal si <#43c9fa><player><#55ffa4> <#43fa8c><amount><#6f737d> × <#fa4362><item><#55ffa4>!"
+    players: "<prefix><#55ffa4>Dal si <#43c9fa><count><#55ffa4> hráčom <#43fa8c><amount><#6f737d> × <#fa4362><item><#55ffa4>!"
+
+  dye:
+    success: "<prefix><#55ffa4>Úspešne si zmenil farbu tohto predmetu!"
+    wrong_color: "<prefix><#fa4943>Farba nebola rozpoznaná, skús hexadecimálnu farbu ako #FFFFFF!"
+    failed: "<prefix><#fa4943>Nemôžeš zmeniť farbu tohto predmetu!"
+
+  hud:
+    no_hud: "<prefix><#fa4943>Neexistuje HUD s názvom '<hud_id>'!"
+    toggle_on: "<prefix><#55ffa4>HUD '<hud_id>' bol zapnutý!"
+    toggle_off: "<prefix><#fa4943>HUD '<hud_id>' bol vypnutý!"
+
+  debug.toggle: "<prefix><#55ffa4>Debug mód je teraz <#43fa8c><state><#55ffa4>!"
+  version: "<prefix><#55ffa4>Nexo verzia: <#43fa8c><version><#55ffa4>!"
+
+mechanics:
+  not_enough_exp: "<prefix><#fa4943>Na vykonanie tejto akcie potrebuješ viac skúseností"
+  backpack_stacked: "<prefix><#fa4943>Nemôžeš otvoriť batoh v staku"
+  jukebox_now_playing: "<dark_purple>Práve hrá <disc>"

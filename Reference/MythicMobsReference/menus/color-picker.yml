@@ -1,0 +1,32 @@
+Menu:
+  Display: "&lColor Picker"
+  Size: 54
+  Schema:
+   - 01 02 03 04 05 06 07 08 09
+   - 11 12 13 14 15 16 17 18 19
+   - 21 22 23 24 25 26 27 28 29
+   - 31 32 33 34 35 36 37 38 39
+   - 41 42 43 44 45 46 47 48 49
+   - 0 0 U 0 C 0 D 0 B
+  Icons:
+    FANCY_BORDER:
+      Mapping: 1
+      Material: LIGHT_GRAY_STAINED_GLASS_PANE
+      Display: '&8www.mythiccraft.io'
+      Model: 0
+    NEXT_PAGE:
+      Mapping: U
+      Material: ARROW
+      Display: '&fSaturation Up'
+    PREVIOUS_PAGE:
+      Mapping: D
+      Material: ARROW
+      Display: '&fSaturation Down'
+    BACK_BUTTON:
+      Mapping: B
+      Material: STRUCTURE_VOID
+      Display: '&fBack'
+    CONFIRM:
+      Mapping: C
+      Material: EMERALD_BLOCK
+      Display: '&fConfirm'

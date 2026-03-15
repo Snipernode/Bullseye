@@ -1,0 +1,20 @@
+views:
+  main-menu: bullseye_main
+  items-menu: items_panel
+  spawn-mobs-menu: spawn_mobs_panel
+  hud-checker-menu: hud_checker_panel
+  machine-console-menu: machine_console
+
+click-actions:
+  main_open_items:
+    mechanics:
+      - main_open_items
+  main_open_spawn_eggs:
+    mechanics:
+      - main_open_spawn_eggs
+  main_open_hud_checker:
+    mechanics:
+      - main_open_hud_checker
+  main_open_settings:
+    mechanics:
+      - main_open_settings

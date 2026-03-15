@@ -1,0 +1,12 @@
+general:
+  prefix: "&6[ Bullseye ]&r "
+  no_permission: "&cYou do not have permission."
+  reload_complete: "&aBullseye reloaded."
+pack:
+  generating: "&eGenerating Bullseye resource pack..."
+  generated: "&aBullseye resource pack generated."
+  sending: "&eSending Bullseye resource pack..."
+conversion:
+  prompt: "&eRun &f/bullseye convert &eto import compatible plugin assets."
+menu:
+  opening: "&eOpening Bullseye panel..."

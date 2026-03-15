@@ -1,0 +1,92 @@
+#################################
+#                               #
+#  TRANSLATION MADE BY y.rexly  #
+#                               #
+#################################
+
+general:
+  prefix: "<gradient:#46C392:#7FC794>Nexo <gray>| "
+  no_permission: "<prefix><#fa4943>Bunu yapmak için gerekli <b><permission></b> izne sahip değilsiniz!"
+  work_in_progress: "<prefix><#facc43>Bu özellik üzerinde çalışma devam ediyor!"
+  not_player: "<prefix><#fa4943>Bunu ancak oyuncu olarak yapabilirsin!"
+  cooldown: "<prefix><#facc43>Lütfen <time> saniye daha bekleyin!"
+  reload: "<prefix><#55ffa4>Başarıyla yeniden yüklendi. <reloaded>"
+  pack_uploading: "<prefix><#D5D6D8>Kaynak paketinin otomatik yüklenmesi etkinleştirildi, yükleniyor..."
+  pack_not_uploaded: "<prefix><#fa4943>Kaynak paketi yüklenmedi!"
+  pack_uploaded: "<prefix><#55ffa4>Kaynak paketi <url> adresine <delay> ms içinde yüklendi!"
+  pack_regenerated: "<prefix><#55ffa4>Kaynak paketi başarıyla yeniden oluşturuldu!"
+  updating_config: "<prefix><#facc43>Yapılandırma seçeneği \"<option>\" bulunamadı, ekleniyor!"
+  removing_config: "<prefix><#facc43>Yapılandırma seçeneği \"<option>\" kaldırılmak üzere işaretlendi, kaldırılıyor!"
+  configs_validation_failed: "<prefix><#fa4943>Yapılandırma doğrulaması başarısız oldu, eklenti otomatik olarak devre dışı bırakıldı!"
+  repaired_items: "<prefix><#55ffa4><amount> Öğe(ler) başarıyla onarıldı!"
+  cannot_be_repaired: "<prefix><#fa4943>Bu ürün tamir edilemez!"
+  cannot_be_repaired_invalid: "<prefix><#fa4943>Elinizde geçerli bir Öğe bulundurmanız gerekiyor!"
+  updated_items: "<prefix><#55ffa4><amount> <player> için öğe(ler) başarıyla güncellendi!"
+  zip_browse_error: "<prefix><#fa4943>Zip dosyasına göz atarken bir hata oluştu!"
+  bad_recipe: "<prefix><#fa4943>\"<recipe>\" tarifi geçersiz, lütfen tüm bileşenlerinin yapılandırmanızda mevcut olduğundan emin olun!"
+  item_not_found: "<prefix><#fa4943>Öğe \"<item>\" bulunamadı!"
+  plugin_hooks: "<prefix><#55ffa4>Eklenti \"<plugin>\" algılandı, kancalar etkinleştirildi."
+  plugin_unhooks: "<prefix><#55ffa4>Eklenti bağlantısı kesiliyor \"<plugin>\""
+  not_enough_exp: "<prefix><#fa4943>Bunu yapmak için daha fazla xp seviyesine ihtiyacınız var!"
+  not_enough_space: "<prefix><#fa4943>Bu mobilyayı yerleştirmek için daha fazla alana ihtiyacınız var!"
+  exit_menu: "<gradient:#FA7CBB:#F14658>Çıkış"
+  no_emojis: "<prefix><#fa4943>Hiçbir emoji bulunamadı."
+
+logs:
+  loaded: "<prefix><#55ffa4><os> üzerinde başarıyla yüklendi."
+  unloaded: "<prefix><#55ffa4>Başarıyla boşaltıldı."
+  no_armor_item: "<prefix><#fa4943><name> ile eşleşen bir öğe bulunamadı. <armor_layer_file> kullanılamıyor!"
+  duplicate_armor_color: "<prefix><#fa4943><first_armor_prefix> zırh seti, farklı bir dokuya sahip <second_armor_prefix> ile aynı rengi kullanır."
+
+command:
+  help: "<prefix><#b8bbc2>Mevcut komutlar
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo reload ><#6f737d>/nexo
+          <#b8bbc2>reload <#fa8943>tür</click></hover>  <#6f737d>»<#b8bbc2> eklentiyi yeniden yükler
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo inv><#6f737d>/nexo
+          <#b8bbc2>inventory</click></hover>  <#6f737d>»<#b8bbc2> nexo öğelerini gösterir
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo pack ><#6f737d>/nexo
+          <#b8bbc2>pack <#43c9fa>hedef</click></hover>
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo give ><#6f737d>/nexo
+          <#b8bbc2>give <#43c9fa>hedef <#fa4362>öğe <#43fa8c>miktar</click></hover>  <#6f737d>»<#b8bbc2> bir nexo öğesi verir
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo recipes show ><#6f737d>/nexo
+          <#b8bbc2>recipes show <#fa8943>tür</click></hover>  <#6f737d>»<#b8bbc2> tarifleri gösterir
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo recipes builder ><#6f737d>/nexo
+          <#b8bbc2>recipes builder <#fa8943>tür</click></hover>  <#6f737d>»<#b8bbc2> açık tarif oluşturur
+        \n<hover:show_text:\"<gray>komutu kullanmak için tıkla\"><click:SUGGEST_COMMAND:/nexo recipes save ><#6f737d>/nexo
+          <#b8bbc2>recipes save <#faf443>isim</click></hover>  <#6f737d>»<#b8bbc2> tarifi kaydeder"
+
+  join: |-
+    <dark_gray><st>                           </st><dark_gray>{<aqua><bold>Kaynak Paketi</bold><dark_gray>}<dark_gray><st>                        </st>
+    <gray><bold>Yeni öğeleri görmek için özel bir kaynak paketi kullanmanız gerekir (ama endişelenmeyin, bu sizinkini aynı anda kullanmanızı engellemez).</bold>
+    <dark_gray>»<gray> Doğrudan oyundan yüklemeyi denemek için, <click:run_command:"nexo pack send @p"><hover:show_text:"<red>! kaynak paketini oyundan yüklemek gecikmelere neden olabilir"><red><bold>BURAYA TIKLAYIN</bold></hover></click>
+    <dark_gray>»<gray> İnternetten indirmek için <hover:show_text:"<pack_url> <green>! oyununuzdaki Seçenekler/KaynakPaketleri'nden yükleyin"><green><bold><click:OPEN_URL:"<pack_url>">BURAYA TIKLAYIN</click></bold></hover>
+
+  recipe:
+    no_builder: "<prefix><#fa4943>Lütfen önce bir tarif oluşturun!"
+    no_furnace: "<prefix><#fa4943>Bu seçenek sadece Fırın Tarifleri için geçerlidir!"
+    no_name: "<prefix><#fa4943>Lütfen <gradient:#FA7CBB:#F14658>tarif için bir isim belirtin!"
+    no_recipes: "<prefix><#fa4943>Gösterilecek tarif bulunamadı!"
+    no_item: "<prefix><#fa4943>Lütfen bir madde belirtin!"
+    save: "<prefix><#55ffa4>Tarif '<name>' başarıyla kaydedildi!"
+
+  give:
+    player: "<prefix><#43c9fa><player><#55ffa4> oyuncuya <#43fa8c><amount><#6f737d> × <#fa4362><item><#55ffa4> verildi!"
+    players: "<prefix><#43c9fa><count><#55ffa4> oyuncuya <#43fa8c><amount><#6f737d> × <#fa4362><item><#55ffa4> verdiniz!"
+
+  dye:
+    success: "<prefix><#55ffa4>Bu öğenin rengini başarıyla değiştirdiniz!"
+    wrong_color: "<prefix><#fa4943>Renk tanınmadı, #FFFFFF gibi onaltılık bir renk deneyin!"
+    failed: "<prefix><#fa4943>Bu öğenin rengini değiştiremezsiniz!"
+
+  hud:
+    no_hud: "<prefix><#fa4943>'<hud_id>' adında bir HUD yok!"
+    toggle_on: "<prefix><#55ffa4>'<hud_id>' açıldı!"
+    toggle_off: "<prefix><#fa4943>'<hud_id>' kapatıldı!"
+
+  debug.toggle: "<prefix><#55ffa4>Hata ayıklama modu artık <#43fa8c><state><#55ffa4>!"
+  version: "<prefix><#55ffa4>Nexo sürümü: <#43fa8c><version><#55ffa4>!"
+
+mechanics:
+  not_enough_exp: "<prefix><#fa4943>Bunu yapmak için daha fazla xp seviyesine ihtiyacınız var!"
+  backpack_stacked: "<prefix><#fa4943>Yığılmış sırt çantası açılamıyor!"
+  jukebox_now_playing: "<dark_purple>Şu anda <disc> çalıyor."

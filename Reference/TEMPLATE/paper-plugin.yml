@@ -1,0 +1,91 @@
+api-version: '1.21'
+name: Nexo
+version: '1.18'
+main: com.nexomc.nexo.NexoPlugin
+loader: com.nexomc.nexo.PaperPluginLoader
+bootstrapper: com.nexomc.nexo.NexoBootstrap
+authors:
+- boy0000
+folia-supported: true
+dependencies:
+    server:
+        AxiomPaper:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        BentoBox:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        BlockLocker:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Factions:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        HuskClaims:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        HuskTowns:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Lands:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        MMOItems:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        ModelEngine:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        MythicCrucible:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        MythicMobs:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        PlaceholderAPI:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        PlotSquared:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Spartan:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        TAB:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Towny:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Vacan:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        Vulcan:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        WorldEdit:
+            load: BEFORE
+            required: false
+            join-classpath: true
+        WorldGuard:
+            load: BEFORE
+            required: false
+            join-classpath: true

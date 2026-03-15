@@ -1,0 +1,69 @@
+plugin:
+  debug: false
+  locale: english
+
+breaker:
+  require-configured-tools: true
+  default-speed: 1.0
+
+resource-pack:
+  enabled: true
+  auto-send: true
+  sync-bundled-gui-assets: true
+  force: false
+  override-server-pack: false
+  rebuild-on-startup: false
+  rebuild-on-reload: true
+  obfuscate: false
+  compat:
+    mirror-champions-textures: true
+  output-file: generated/bullseye-pack.zip
+  source-folders:
+    - resourcepack/base
+    - resourcepack/addons
+  # Use {hash} if your host supports cache busting by query/path.
+  # Example: https://cdn.example.com/bullseye-pack.zip?hash={hash}
+  url: ""
+  prompt: "&6Bullseye requires the custom resource pack for models, blocks, furniture, and UI."
+  hosting:
+    enabled: true
+    auto-rebuild-if-missing: true
+    protocol: "http"
+    bind-address: "0.0.0.0"
+    # Public host/ip players can access (set this in production).
+    public-host: ""
+    port: 25590
+    path: "/resourcepack/bullseye-pack.zip"
+
+addons:
+  enabled: true
+  folder: addons
+
+conversion:
+  detect-plugins: true
+  remind-admins: true
+  overwrite-existing-imports: true
+  supported-plugin-keys:
+    - nexo
+    - oraxen
+    - champions
+    - mythicmobs
+    - modelengine
+  external-content-roots:
+    - "../ChampionAllies"
+    - "../Champions"
+    - "G:/Peach Tree Studios Clients/Champions"
+    - "/mnt/g/Peach Tree Studios Clients/Champions"
+  champions:
+    namespace: champion_allies
+    target-subdir: textures/champions
+    write-signature-lock: true
+    signature-file-name: DATJR.lock.hex
+    signature-hex: "4441544A52"
+  converted-plugins: []
+
+signature-check:
+  enabled: true
+  stop-on-failure: true
+  # DATJR in hex. Also accepted: DATJR text or decimal 293153819218.
+  value: "4441544A52"

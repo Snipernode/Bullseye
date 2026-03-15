@@ -1,0 +1,86 @@
+skills:
+  shadow_stalker_passive_skill:
+    triggers: [mob_spawn, mob_hit]
+    targeter: self
+    cooldown: 20
+    actions:
+      - type: particle
+        target: target
+        particle: PORTAL
+        count: 16
+        spread: 0.3
+      - type: sound
+        target: target
+        sound: ENTITY_ENDERMAN_AMBIENT
+        volume: 0.8
+        pitch: 1.35
+
+  toxic_crawler_passive_skill:
+    triggers: [mob_spawn, mob_hit]
+    targeter: self
+    cooldown: 15
+    actions:
+      - type: particle
+        target: target
+        particle: SLIME
+        count: 14
+        spread: 0.25
+
+  inferno_brute_passive_skill:
+    triggers: [mob_spawn, mob_death]
+    targeter: self
+    cooldown: 20
+    actions:
+      - type: particle
+        target: target
+        particle: FLAME
+        count: 18
+        spread: 0.2
+      - type: sound
+        target: target
+        sound: ENTITY_BLAZE_AMBIENT
+        volume: 0.8
+        pitch: 1.0
+
+  void_reaper_passive_skill:
+    triggers: [mob_spawn, mob_hit, mob_interact]
+    targeter: self
+    cooldown: 20
+    actions:
+      - type: particle
+        target: target
+        particle: DRAGON_BREATH
+        count: 12
+        spread: 0.3
+      - type: sound
+        target: target
+        sound: ENTITY_ENDERMAN_SCREAM
+        volume: 0.7
+        pitch: 1.2
+
+  mossling_passive_skill:
+    triggers: [mob_spawn, mob_death]
+    targeter: self
+    cooldown: 10
+    actions:
+      - type: particle
+        target: target
+        particle: HAPPY_VILLAGER
+        count: 14
+        spread: 0.25
+
+  crystal_golem_passive_skill:
+    triggers: [mob_spawn, mob_death]
+    targeter: self
+    cooldown: 20
+    actions:
+      - type: particle
+        target: target
+        particle: END_ROD
+        count: 12
+        spread: 0.2
+      - type: sound
+        target: target
+        sound: BLOCK_AMETHYST_BLOCK_CHIME
+        volume: 0.8
+        pitch: 1.35

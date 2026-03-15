@@ -1,0 +1,18 @@
+blocks:
+  marble_block:
+    item-id: marble_block_item
+    backing-material: NOTE_BLOCK
+    drop-item: marble_block_item
+    required-tool: mining_drill
+    cancel-vanilla-interaction: true
+    mechanics:
+      - marble_block_touch
+
+  industrial_lamp:
+    item-id: industrial_lamp_item
+    backing-material: NOTE_BLOCK
+    drop-item: industrial_lamp_item
+    cancel-vanilla-interaction: true
+    mechanics:
+      - lamp_toggle
+      - open_machine_menu

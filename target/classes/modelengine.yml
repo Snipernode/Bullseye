@@ -1,0 +1,22 @@
+model-engine:
+  namespace: bullseye
+  create-zip: true
+  create-atlas: true
+  create-mc-meta: true
+  item-model: LEATHER_HORSE_ARMOR
+  item-models: []
+  sync-reference-pack-assets: true
+  overwrite-synced-assets: true
+  blueprint-roots:
+    - "BBModels"
+    - "../Champions/BBModels"
+    - "G:/Peach Tree Studios Clients/Champions/BBModels"
+    - "/mnt/g/Peach Tree Studios Clients/Champions/BBModels"
+  reference-pack-roots:
+    - "Reference/ModelEngine-Reference/pack"
+    - "/mnt/g/Peach Tree Studios Clients/Bullseye/Bullseye/Reference/ModelEngine-Reference/pack"
+  blueprint-import:
+    auto-import: false
+    overwrite-existing: false
+    generated-addon-folder: "generated-blueprints"
+    starting-custom-model-data: 24000

@@ -1,0 +1,9 @@
+glyphs:
+  ":coin:": "\uE001"
+  ":sword:": "\uE002"
+  ":star:": "\uE003"
+  "[bullseye]": "\uE010"
+  ":main_panel:": "\uE900"
+  ":items_panel:": "\uE901"
+  ":spawn_panel:": "\uE902"
+  ":hud_panel:": "\uE903"
