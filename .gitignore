@@ -1,0 +1,12 @@
+target/
+src/target/
+.vscode/
+.idea/
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+MythicMobs-*.jar
+reference/
