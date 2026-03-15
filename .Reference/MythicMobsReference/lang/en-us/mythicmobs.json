@@ -1,5 +1,0 @@
-{
-  "command.item.get.success": "Item <aqua>{0} <green>was put in your inventory!",
-  "command.reload.completed": "Mythic has finished reloading!",
-  "command.reload.started": "Reloading plugin..."
-}

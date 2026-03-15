@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Built-By: sivert
-Version: 1.18
-Created-By: Gradle 9.2.1
-Build-Jdk: 21.0.9 JetBrains s.r.o. 21.0.9+10-b1038.76
-Compiled: false
-CI: false
-Multi-Release: true
-
