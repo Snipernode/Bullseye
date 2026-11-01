@@ -1,5 +1,5 @@
 views:
-  main-menu: bullseye_main
+  main-menu: ttt_main
   items-menu: items_panel
   spawn-mobs-menu: spawn_mobs_panel
   hud-checker-menu: hud_checker_panel

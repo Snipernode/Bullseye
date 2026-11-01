@@ -1,5 +1,5 @@
 model-engine:
-  namespace: bullseye
+  namespace: ttt
   create-zip: true
   create-atlas: true
   create-mc-meta: true
@@ -14,7 +14,7 @@ model-engine:
     - "/mnt/g/Peach Tree Studios Clients/Champions/BBModels"
   reference-pack-roots:
     - "Reference/ModelEngine-Reference/pack"
-    - "/mnt/g/Peach Tree Studios Clients/Bullseye/Bullseye/Reference/ModelEngine-Reference/pack"
+    - "/mnt/g/Peach Tree Studios Clients/TTT/TTT/Reference/ModelEngine-Reference/pack"
   blueprint-import:
     auto-import: false
     overwrite-existing: false

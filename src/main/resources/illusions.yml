@@ -1,0 +1,11 @@
+# TTT illusions: client-side fake blocks. Real blocks are untouched.
+# material accepts any block state string, e.g. STONE, GLASS, "OAK_STAIRS[facing=north]".
+# viewers: all | permission:<node> | PlayerOne,PlayerTwo
+illusions:
+  vault_mirage:
+    world: world
+    from: [0, 64, 0]
+    to: [4, 68, 0]
+    material: STONE
+    viewers: all
+    join-apply: false

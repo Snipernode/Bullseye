@@ -17,14 +17,17 @@ resource-pack:
   obfuscate: false
   compat:
     mirror-champions-textures: true
-  output-file: generated/bullseye-pack.zip
+  output-file: generated/ttt-pack.zip
+  # 1.21.11 uses minor resource-pack formats. Keep both values aligned with the server version.
+  pack-min-format: "94.1"
+  pack-max-format: "94.1"
   source-folders:
     - resourcepack/base
     - resourcepack/addons
   # Use {hash} if your host supports cache busting by query/path.
-  # Example: https://cdn.example.com/bullseye-pack.zip?hash={hash}
+  # Example: https://cdn.example.com/ttt-pack.zip?hash={hash}
   url: ""
-  prompt: "&6Bullseye requires the custom resource pack for models, blocks, furniture, and UI."
+  prompt: "&6TTT requires the custom resource pack for models, blocks, furniture, and UI."
   hosting:
     enabled: true
     auto-rebuild-if-missing: true
@@ -33,7 +36,7 @@ resource-pack:
     # Public host/ip players can access (set this in production).
     public-host: ""
     port: 25590
-    path: "/resourcepack/bullseye-pack.zip"
+    path: "/resourcepack/ttt-pack.zip"
 
 addons:
   enabled: true

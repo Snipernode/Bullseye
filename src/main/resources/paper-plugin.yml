@@ -1,10 +1,24 @@
 api-version: '1.21'
-name: Bullseye
+name: TTT
 version: '1.0.0'
-main: tsd.beye.Bullseye
+main: tsd.ttt.TTT
+description: Track Trace Trigger - config-driven custom content engine.
 authors:
   - Peach Tree Studios
 folia-supported: true
+commands:
+  ttt:
+    description: Opens TTT main panel and provides admin subcommands.
+    usage: /ttt
+    aliases: [bullseye]
+    permission: ttt.admin
+permissions:
+  ttt.admin:
+    description: Access TTT administration commands.
+    default: op
+  ttt.browser:
+    description: Receive items, spawn mobs, and place spawners from the TTT browser.
+    default: op
 dependencies:
   server:
     MythicMobs:

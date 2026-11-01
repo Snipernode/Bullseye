@@ -1,0 +1,17 @@
+# TTT cutscenes. Time is in ticks (20 ticks = 1 second).
+# Play with: /ttt cutscene play <id> [player]
+cutscenes:
+  welcome_sweep:
+    skippable: true
+    freeze-movement: true
+    keyframes:
+      - at: 0
+        location: {world: world, x: 0.5, y: 80.0, z: 0.5, yaw: 0.0, pitch: -10.0}
+        title: "&6&lTTT"
+        subtitle: "&7Target &8· &7Trace &8· &7Tool"
+      - at: 60
+        location: {world: world, x: 12.5, y: 76.0, z: 12.5, yaw: -135.0, pitch: -5.0}
+        say: "&eWelcome to the range. Targets are live."
+      - at: 120
+        location: {world: world, x: 0.5, y: 80.0, z: 0.5, yaw: 0.0, pitch: -10.0}
+        actionbar: "&aCutscene complete. Sneak skips these."

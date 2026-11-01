@@ -11,7 +11,7 @@ items:
     custom-model-data: 10010
     name: "&6Mining Drill"
     lore:
-      - "&7Required for certain Bullseye blocks."
+      - "&7Required for certain TTT blocks."
     unbreakable: true
     flags:
       - HIDE_UNBREAKABLE
@@ -85,7 +85,7 @@ items:
     name: "&aHUD Loaded Badge"
     lore:
       - "&7If this item has the proper icon,"
-      - "&7your Bullseye HUD assets are active."
+      - "&7your TTT HUD assets are active."
 
   shadow_stalker_spawn_egg:
     base: ZOMBIE_SPAWN_EGG

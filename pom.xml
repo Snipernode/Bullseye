@@ -4,11 +4,11 @@
             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://www.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tsd.beye</groupId>
-    <artifactId>Bullseye</artifactId>
+    <groupId>tsd.ttt</groupId>
+    <artifactId>TTT</artifactId>
     <version>1.0.0</version>
     
-    <name>Bullseye</name>
+    <name>TTT</name>
     <url>http://www.example.com</url>
 
     <properties>

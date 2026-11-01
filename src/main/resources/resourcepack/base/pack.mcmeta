@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "Bullseye base resource pack"
+    "min_format": 94.1,
+    "max_format": 94.1,
+    "description": "TTT base resource pack"
   }
 }

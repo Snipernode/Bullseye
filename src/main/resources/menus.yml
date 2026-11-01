@@ -1,5 +1,5 @@
 menus:
-  bullseye_main:
+  ttt_main:
     title: "\uE900"
     size: 54
     buttons:
@@ -7,7 +7,7 @@ menus:
         item: ruby_sword
         name: "&6ITEMS"
         lore:
-          - "&7Open the Bullseye items panel."
+          - "&7Open the TTT items panel."
         mechanics:
           - main_open_items
       "24":
@@ -28,7 +28,7 @@ menus:
         material: COMPARATOR
         name: "&6SETTINGS"
         lore:
-          - "&7Open Bullseye settings."
+          - "&7Open TTT settings."
         mechanics:
           - main_open_settings
       "49":
@@ -156,7 +156,7 @@ menus:
           - hud_exit
 
   machine_console:
-    title: "&8Bullseye Machine"
+    title: "&8TTT Machine"
     size: 27
     buttons:
       "11":

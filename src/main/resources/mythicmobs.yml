@@ -5,8 +5,8 @@ mythicmobs:
     auto-inject-on-reload: false
     run-reload-after-inject: true
     reload-command: "mm reload"
-    mobs-file: "Bullseye-AutoMobs.yml"
-    skills-file: "Bullseye-AutoSkills.yml"
+    mobs-file: "TTT-AutoMobs.yml"
+    skills-file: "TTT-AutoSkills.yml"
     import-external-examples: true
     external-example-roots:
       - "../Champions/examples/mythicmobs"
@@ -23,11 +23,11 @@ mythicmobs:
       health: 26
       damage: 6
       spawn-skills:
-        - "skill{s=bullseye_shadow_stalker_idle} @self ~onSpawn"
+        - "skill{s=ttt_shadow_stalker_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_shadow_stalker_idle:
+        ttt_shadow_stalker_idle:
           - "effect:particles{p=witch;amount=6;hS=0.2;vS=0.1} @self"
-        bullseye_shadow_stalker_attack:
+        ttt_shadow_stalker_attack:
           - "effect:particles{p=smoke;amount=10;hS=0.25;vS=0.15} @self"
     toxic_crawler:
       mythic-mob: ToxicCrawler
@@ -39,9 +39,9 @@ mythicmobs:
       health: 24
       damage: 5
       spawn-skills:
-        - "skill{s=bullseye_toxic_crawler_idle} @self ~onSpawn"
+        - "skill{s=ttt_toxic_crawler_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_toxic_crawler_idle:
+        ttt_toxic_crawler_idle:
           - "effect:particles{p=slime;amount=8;hS=0.2;vS=0.1} @self"
     inferno_brute:
       mythic-mob: InfernoBrute
@@ -53,9 +53,9 @@ mythicmobs:
       health: 34
       damage: 8
       spawn-skills:
-        - "skill{s=bullseye_inferno_brute_idle} @self ~onSpawn"
+        - "skill{s=ttt_inferno_brute_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_inferno_brute_idle:
+        ttt_inferno_brute_idle:
           - "effect:particles{p=flame;amount=12;hS=0.2;vS=0.2} @self"
     void_reaper:
       mythic-mob: VoidReaper
@@ -67,9 +67,9 @@ mythicmobs:
       health: 32
       damage: 7
       spawn-skills:
-        - "skill{s=bullseye_void_reaper_idle} @self ~onSpawn"
+        - "skill{s=ttt_void_reaper_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_void_reaper_idle:
+        ttt_void_reaper_idle:
           - "effect:particles{p=portal;amount=14;hS=0.3;vS=0.2} @self"
     mossling:
       mythic-mob: Mossling
@@ -81,9 +81,9 @@ mythicmobs:
       health: 18
       damage: 3
       spawn-skills:
-        - "skill{s=bullseye_mossling_idle} @self ~onSpawn"
+        - "skill{s=ttt_mossling_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_mossling_idle:
+        ttt_mossling_idle:
           - "effect:particles{p=happy_villager;amount=8;hS=0.25;vS=0.2} @self"
     crystal_golem:
       mythic-mob: CrystalGolem
@@ -95,7 +95,7 @@ mythicmobs:
       health: 44
       damage: 9
       spawn-skills:
-        - "skill{s=bullseye_crystal_golem_idle} @self ~onSpawn"
+        - "skill{s=ttt_crystal_golem_idle} @self ~onSpawn"
       generated-skills:
-        bullseye_crystal_golem_idle:
+        ttt_crystal_golem_idle:
           - "effect:particles{p=end_rod;amount=10;hS=0.25;vS=0.15} @self"

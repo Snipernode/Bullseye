@@ -1,19 +1,23 @@
-name: Bullseye
-main: tsd.beye.Bullseye
+name: TTT
+main: tsd.ttt.TTT
 version: 1.0.0
 api-version: '1.21'
 author: Snipernode
-description: Config-driven custom content engine for Paper/Folia servers.
-website: https://example.com/bullseye
+description: Track Trace Trigger - config-driven custom content engine for Paper and Spigot servers.
+website: https://example.com/ttt
 softdepend: [MythicMobs, ModelEngine, ModelEngineR4, PlaceholderAPI, TAB, WorldEdit, WorldGuard, MMOItems, Nexo, Oraxen, ChampionAllies]
 
 commands:
-  bullseye:
-    description: Opens Bullseye main panel and provides admin subcommands.
-    usage: /bullseye
-    permission: bullseye.admin
+  ttt:
+    description: Opens TTT main panel and provides admin subcommands.
+    usage: /ttt
+    aliases: [bullseye]
+    permission: ttt.admin
 
 permissions:
-  bullseye.admin:
-    description: Access Bullseye administration commands.
+  ttt.admin:
+    description: Access TTT administration commands.
+    default: op
+  ttt.browser:
+    description: Receive items, spawn mobs, and place spawners from the TTT browser.
     default: op

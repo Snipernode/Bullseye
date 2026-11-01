@@ -15,7 +15,7 @@ mechanics:
   marble_block_touch:
     block_interact:
       - type: message
-        text: "&fThis custom marble block is controlled by Bullseye."
+        text: "&fThis custom marble block is controlled by TTT."
 
   lamp_toggle:
     block_interact:
